@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MegamenuComponent } from './megamenu/megamenu.component';
+import {MegaMenuModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MegamenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MegaMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
